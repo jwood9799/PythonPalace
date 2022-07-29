@@ -2,7 +2,6 @@
 
 
 #welcome user and collect name
-   
 print("Hello, welcome to the EC2 Generator!")
 name = input("May I have your first name please?\n")
 name = (name.capitalize())
@@ -10,12 +9,10 @@ print("Thank you, " + name + (".") + (" Nice to meet you."))
 
 
 #get the users department name
-
 dept = input("What department do you work in, " + name + ("?") + (" Accounting, Marketing, or FinOps?\n")).upper()
 
 
 #user needs to be in an approved department
-
 while True:
     try:
         list = ["ACCOUNTING", "MARKETING", "FINOPS"]
@@ -31,7 +28,6 @@ while True:
         
 
 #get the number of unique EC2 names the user wants
-
 while True:
     try:
         instnumb = int(input("How many instances do you need? "))
@@ -46,7 +42,6 @@ while True:
     
 
 #random letters and digits that will follow the department name will be generated
-
 import string
 import random
 n = instnumb
