@@ -1,5 +1,5 @@
 # How to describe AWS EBS Volume
-# This doesn't print anything. I may need to figure that out. I believe it's because the tutorial I watched was done using Jupyter
+# This doesn't print anything. I may need to figure that out. I believe it's because the tutorial I watched was done using Jupyter.
 
 import boto3
 ec2=boto3.client("ec2")

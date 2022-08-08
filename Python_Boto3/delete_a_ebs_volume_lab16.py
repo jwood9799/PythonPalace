@@ -1,4 +1,4 @@
-# How to delete an EBS Volume
+# How to delete an EBS Volume.
 
 import boto3
 ec2_client=boto3.client("ec2")
